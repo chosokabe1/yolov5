@@ -1,0 +1,6 @@
+python train.py --epoch 100 --data C:\ex\sen\data\2021\4k\imgwithano\hoge.yaml --batch 32 --img 640 --weights yolov5s.pt --name 20221020
+バッチ4は死んだ
+バッチ3は死んだ
+バッチ2は生きた
+
+python detect.py --conf 0.1 --img 640 --name id_all --save-txt --source C:\ex\sen\data\pickup_8times\ex\ID_all_640 --weights C:\ex\sen\yolov5\runs\train\20221020\weights\last.pt 
